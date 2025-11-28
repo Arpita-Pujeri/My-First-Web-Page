@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edc5c5;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: rgb(73, 44, 44);
+    color: white;
+}
+
+section{
+    width: 50%;
+    margin: 20px auto;
+    background: rgb(216, 150, 150);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+img{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 10px 10px rgb(92, 81, 81);
+}
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+section:hover{
+    transform: translateX(5px);
+    box-shadow: 0 10px 10px rgb(59, 22, 22)
+}
